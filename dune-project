@@ -18,7 +18,8 @@
 (package
  (name nonempty-list-core)
  (synopsis "Repackaging core_kernel.nonempty_list as a standalone package")
- (description "Repackaging core_kernel.nonempty_list as a standalone package")
+ (description
+  "Repackaging core_kernel.nonempty_list as a standalone package")
  (depends
   (ocaml
    (>= 5.1))
