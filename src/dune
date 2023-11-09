@@ -1,0 +1,6 @@
+(library
+ (name nonempty_list)
+ (public_name nonempty-list-core)
+ (libraries core reversed-list)
+ (preprocess
+  (pps ppx_jane)))
