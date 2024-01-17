@@ -8,8 +8,8 @@ homepage: "https://github.com/mbarbin/nonempty-list-core"
 doc: "https://mbarbin.github.io/nonempty-list-core/"
 bug-reports: "https://github.com/mbarbin/nonempty-list-core/issues"
 depends: [
+  "dune" {>= "3.12"}
   "ocaml" {>= "5.1"}
-  "dune" {>= "3.11" & >= "3.11"}
   "core" {>= "v0.16" & < "v0.17"}
   "ppx_jane" {>= "v0.16" & < "v0.17"}
   "reversed-list" {>= "v0.16" & < "v0.17"}
