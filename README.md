@@ -7,6 +7,10 @@ standalone opam package.
 
 Original code at https://github.com/janestreet/core_kernel/tree/master/nonempty_list
 
+After some experimentation, I decided to archive this repository, and use another 
+repackaging that removes dependencies into `Core` and solely depends on `Base` 
+instead, making it available in more contexts: https://github.com/mbarbin/nonempty-list
+
 ## Code documentation
 
 The code documentation of the latest release is built with `odoc` and published
